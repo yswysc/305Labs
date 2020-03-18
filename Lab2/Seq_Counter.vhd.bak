@@ -1,0 +1,37 @@
+entity Seq_Counter is
+	port (Clk, Reset, Enable : in bit;
+		Mode: in bit_vector(1 downto 0);
+		Q: out bit_vector(1 downto 0);
+end entity Seq_Counter;
+
+architecture behaviour of wgen1 is
+	signal aa, bb, cc : bit;
+begin
+	process (Clk)
+		variable m: interger;
+	begin
+		if (Clk'event and Clk = '1') then
+			if (Reset = '1') then
+				v_Q := 0;
+			elsif (v_Q < 31) then
+				v_Q := v_Q + 3;
+			else
+				v_Q := 0;
+			end if;
+			Q <= v_Q;
+		end if;
+	end process;
+	
+	process(aa, bb, cc)
+	begin
+		case D is
+			when "00" => Z <= aa or bb or cc;
+			when "01" => Z <= bb xor cc;
+			when "10" => Z <= aa and bb;
+			when others => Z <= '0';
+		end case;
+		A <= aa;
+		B <= bb;
+		C <= cc;
+	end process;
+end architecture behaviour;

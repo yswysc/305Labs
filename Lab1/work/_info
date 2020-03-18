@@ -1,0 +1,247 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/Desktop/Lab1
+T_opt
+!s110 1583890523
+VKWP?]ZYRa>fm07jSoG><:1
+Z1 04 12 7 work test_counter my_test 1
+=1-e454e87aad54-5e68405b-1b7-674
+Z2 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z3 OE;O;10.4c;61
+R0
+T_opt1
+!s110 1583893761
+VONhh]I12@`C<_h5hEA]o10
+R1
+=1-e454e87aad54-5e684d01-89-12cc
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1583975418
+VI14<3jB?kRhL9@98TA6O;1
+04 10 4 work test_wgen1 test 1
+=1-e454e84f698e-5e698bf9-3be-237c
+R2
+n@_opt2
+R3
+R0
+Ecounter
+Z4 w1583893882
+R0
+Z5 8H:/Desktop/Lab1/counter.vhd
+Z6 FH:/Desktop/Lab1/counter.vhd
+l0
+L1
+VdYLn>RCjV7jKkkFgRNJco0
+!s100 S793e`Idl_B@`5h^@<dT>3
+Z7 OE;C;10.4c;61
+32
+Z8 !s110 1583976774
+!i10b 1
+Z9 !s108 1583976774.000000
+Z10 !s90 -reportprogress|300|-work|work|H:/Desktop/Lab1/counter.vhd|
+Z11 !s107 H:/Desktop/Lab1/counter.vhd|
+!i113 0
+Z12 o-work work
+Z13 tExplicit 1
+Abehaviour
+DEx4 work 7 counter 0 22 dYLn>RCjV7jKkkFgRNJco0
+l7
+L6
+VQm?j<JKkG;dk`ZT>naUF52
+!s100 <OcMV7[DZie2X_JaWd3@X0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Etest_counter
+Z14 w1583890448
+R0
+Z15 8H:/Desktop/Lab1/test_counter.vhd
+Z16 FH:/Desktop/Lab1/test_counter.vhd
+l0
+L2
+VlC6L?Jf<TXOl7Y`Rbk5_l3
+!s100 cXXK5<eTTH[Q69O5hIha22
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|H:/Desktop/Lab1/test_counter.vhd|
+Z18 !s107 H:/Desktop/Lab1/test_counter.vhd|
+!i113 0
+R12
+R13
+Amy_test
+DEx4 work 12 test_counter 0 22 lC6L?Jf<TXOl7Y`Rbk5_l3
+l12
+L4
+V4Pd2NDh:=DB[o_]WgI6iE1
+!s100 0UcJLVhTE`7DDJc<_XzA03
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 0
+R12
+R13
+Etest_wgen1
+Z19 w1583894565
+R0
+Z20 8H:/Desktop/Lab1/test_wgen1.vhd
+Z21 FH:/Desktop/Lab1/test_wgen1.vhd
+l0
+L2
+VP[J3T0K1fnDD;zEGf`cVd0
+!s100 HZCjdKW]kI_NZoLaNBeFf1
+R7
+32
+Z22 !s110 1583979059
+!i10b 1
+Z23 !s108 1583979059.000000
+Z24 !s90 -reportprogress|300|-work|work|H:/Desktop/Lab1/test_wgen1.vhd|
+Z25 !s107 H:/Desktop/Lab1/test_wgen1.vhd|
+!i113 0
+R12
+R13
+Atest
+DEx4 work 10 test_wgen1 0 22 P[J3T0K1fnDD;zEGf`cVd0
+l13
+L5
+ViPK<0ROPz6N6zSUOE<bO92
+!s100 T_[XoEhF:=blZN8jZ17B=2
+R7
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R12
+R13
+Etest_wgen2
+Z26 w1583894741
+R0
+Z27 8H:/Desktop/Lab1/test_wgen2.vhd
+Z28 FH:/Desktop/Lab1/test_wgen2.vhd
+l0
+L2
+V61K=c:G8am?3K5@zbA?E11
+!s100 cMNj;]JCkVflK9F1KT7Sj1
+R7
+32
+Z29 !s110 1583978866
+!i10b 1
+Z30 !s108 1583978866.000000
+Z31 !s90 -reportprogress|300|-work|work|H:/Desktop/Lab1/test_wgen2.vhd|
+Z32 !s107 H:/Desktop/Lab1/test_wgen2.vhd|
+!i113 0
+R12
+R13
+Atest
+DEx4 work 10 test_wgen2 0 22 61K=c:G8am?3K5@zbA?E11
+32
+R29
+l15
+L5
+V:jifCNU3XZdB=7=XT?<VI1
+!s100 GDmYVS`2z0`XUHCLim2o01
+R7
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R12
+R13
+Ewgen1
+Z33 w1583978347
+R0
+Z34 8H:/Desktop/Lab1/2-2.vhd
+Z35 FH:/Desktop/Lab1/2-2.vhd
+l0
+L1
+V[N<cg>1K2b03<WLZ5zMTh2
+!s100 `MN4mzUkNYQcV1SZBelN]1
+R7
+32
+R29
+!i10b 1
+R30
+Z36 !s90 -reportprogress|300|-work|work|H:/Desktop/Lab1/2-2.vhd|
+Z37 !s107 H:/Desktop/Lab1/2-2.vhd|
+!i113 0
+R12
+R13
+Abehaviour
+DEx4 work 5 wgen1 0 22 [N<cg>1K2b03<WLZ5zMTh2
+l9
+L7
+Vi2Ze`LVbl[QeHkP9J0_[f0
+!s100 >J:cZ5RjZl^LLiiOTiF:K1
+R7
+32
+R29
+!i10b 1
+R30
+R36
+R37
+!i113 0
+R12
+R13
+Ewgen2
+Z38 w1583979040
+R0
+R34
+R35
+l0
+L1
+VnkCcCZ5NGDcOIz4T5hk8l2
+!s100 D]Kg54dI=NRY]<OCXB]K@0
+R7
+32
+R22
+!i10b 1
+R23
+R36
+R37
+!i113 0
+R12
+R13
+Abehaviour
+DEx4 work 5 wgen2 0 22 nkCcCZ5NGDcOIz4T5hk8l2
+32
+R22
+l9
+L7
+VEcz1YObR<FB`I>X[FU:Ib1
+!s100 f>GGnMgUb@_ML`W2GW_M:1
+R7
+!i10b 1
+R23
+R36
+R37
+!i113 0
+R12
+R13

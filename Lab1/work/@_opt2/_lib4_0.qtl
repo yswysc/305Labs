@@ -1,0 +1,291 @@
+m255
+K4
+z2
+!s8c locked
+!s95 MTI
+cModel Technology Builtin Library
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+d/u/qa/buildsites/10.4p/builds/linux/modeltech
+Penv
+32
+b1
+Z0 !s110 1437365699
+!i10b 1
+Z1 OL;C;10.4c;61
+Z2 OP;C;10.4c;61
+Z3 w1437363445
+Z4 d$MODEL_TECH/..
+Z5 8vhdl_src/std/env.vhd
+Z6 Fvhdl_src/std/env.vhd
+l0
+L1
+Vd?`1ck@NdeD@H3RZG7FgZ2
+!s100 d?`1ck@NdeD@H3RZG7FgZ2
+Z7 OE;C;10.4c;61
+Z8 !s108 1437365699.000000
+Z9 !s90 -debug|-work|std|-dirpath|$MODEL_TECH/..|vhdl_src/std/env.vhd|
+Z10 !s107 vhdl_src/std/env.vhd|
+!i113 1
+Z11 o-debug -work std -dirpath {$MODEL_TECH/..}
+Z12 tExplicit 1
+Bbody
+DPx4 work 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+32
+R0
+!i10b 1
+R1
+R2
+l0
+L15
+VGO=IeNa]6JLe2BRN4G<kA2
+!s100 GO=IeNa]6JLe2BRN4G<kA2
+R7
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Z13 nbody
+Pstandard
+33
+R0
+!i10b 1
+R1
+R2
+R3
+R4
+8vhdl_src/std/standard.vhd
+Fvhdl_src/std/standard.vhd
+l0
+L8
+VofRa6alAEoSE^5WcJ^O]C2
+!s100 ofRa6alAEoSE^5WcJ^O]C2
+R7
+R8
+!s90 -debug|-s|-2008|-work|std|-dirpath|$MODEL_TECH/..|vhdl_src/std/standard.vhd|
+!s107 vhdl_src/std/standard.vhd|
+!i113 1
+o-debug -s -2008 -work std -dirpath {$MODEL_TECH/..}
+R12
+Ptextio
+33
+b1
+R0
+!i10b 1
+R1
+R2
+Z14 w1424892841
+R4
+Z15 8vhdl_src/std/textio.vhd
+Z16 Fvhdl_src/std/textio.vhd
+l0
+L1
+VzE1`LPoLg^DX3Oz^4Fj1K3
+!s100 zE1`LPoLg^DX3Oz^4Fj1K3
+R7
+R8
+Z17 !s90 -debug|-2008|-work|std|-dirpath|$MODEL_TECH/..|vhdl_src/std/textio.vhd|
+Z18 !s107 vhdl_src/std/textio.vhd|
+!i113 1
+Z19 o-debug -2008 -work std -dirpath {$MODEL_TECH/..}
+R12
+Bbody
+DPx4 work 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+33
+R0
+!i10b 1
+R1
+R2
+l0
+L186
+VOBFf4Pj<FG4ZXfzD:k]VN1
+!s100 OBFf4Pj<FG4ZXfzD:k]VN1
+R7
+R8
+R17
+R18
+!i113 1
+R19
+R12
+R13
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/Desktop/Lab1
+T_opt
+!s110 1583890523
+VKWP?]ZYRa>fm07jSoG><:1
+Z1 04 12 7 work test_counter my_test 1
+=1-e454e87aad54-5e68405b-1b7-674
+Z2 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z3 OE;O;10.4c;61
+R0
+T_opt1
+!s110 1583893761
+VONhh]I12@`C<_h5hEA]o10
+R1
+=1-e454e87aad54-5e684d01-89-12cc
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1583975418
+VI14<3jB?kRhL9@98TA6O;1
+04 10 4 work test_wgen1 test 1
+=1-e454e84f698e-5e698bf9-3be-237c
+R2
+n@_opt2
+R3
+Ecounter
+Z4 w1583893882
+R0
+Z5 8H:/Desktop/Lab1/counter.vhd
+Z6 FH:/Desktop/Lab1/counter.vhd
+l0
+L1
+VdYLn>RCjV7jKkkFgRNJco0
+!s100 S793e`Idl_B@`5h^@<dT>3
+Z7 OE;C;10.4c;61
+32
+Z8 !s110 1583894375
+!i10b 1
+Z9 !s108 1583894375.000000
+Z10 !s90 -reportprogress|300|-work|work|H:/Desktop/Lab1/counter.vhd|
+Z11 !s107 H:/Desktop/Lab1/counter.vhd|
+!i113 0
+Z12 o-work work
+Z13 tExplicit 1
+Abehaviour
+DEx4 work 7 counter 0 22 dYLn>RCjV7jKkkFgRNJco0
+32
+R8
+l7
+L6
+VQm?j<JKkG;dk`ZT>naUF52
+!s100 <OcMV7[DZie2X_JaWd3@X0
+R7
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Etest_counter
+Z14 w1583890448
+R0
+Z15 8H:/Desktop/Lab1/test_counter.vhd
+Z16 FH:/Desktop/Lab1/test_counter.vhd
+l0
+L2
+VlC6L?Jf<TXOl7Y`Rbk5_l3
+!s100 cXXK5<eTTH[Q69O5hIha22
+R7
+32
+Z17 !s110 1583894376
+!i10b 1
+Z18 !s108 1583894376.000000
+Z19 !s90 -reportprogress|300|-work|work|H:/Desktop/Lab1/test_counter.vhd|
+Z20 !s107 H:/Desktop/Lab1/test_counter.vhd|
+!i113 0
+R12
+R13
+Amy_test
+DEx4 work 12 test_counter 0 22 lC6L?Jf<TXOl7Y`Rbk5_l3
+32
+R17
+l12
+L4
+V4Pd2NDh:=DB[o_]WgI6iE1
+!s100 0UcJLVhTE`7DDJc<_XzA03
+R7
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R12
+R13
+Etest_wgen1
+Z21 w1583894565
+R0
+Z22 8H:/Desktop/Lab1/test_wgen1.vhd
+Z23 FH:/Desktop/Lab1/test_wgen1.vhd
+l0
+L2
+VP[J3T0K1fnDD;zEGf`cVd0
+!s100 HZCjdKW]kI_NZoLaNBeFf1
+R7
+32
+Z24 !s110 1583900804
+!i10b 1
+Z25 !s108 1583900804.000000
+Z26 !s90 -reportprogress|300|-work|work|H:/Desktop/Lab1/test_wgen1.vhd|
+Z27 !s107 H:/Desktop/Lab1/test_wgen1.vhd|
+!i113 0
+R12
+R13
+Atest
+DEx4 work 10 test_wgen1 0 22 P[J3T0K1fnDD;zEGf`cVd0
+32
+R24
+l13
+L5
+ViPK<0ROPz6N6zSUOE<bO92
+!s100 T_[XoEhF:=blZN8jZ17B=2
+R7
+!i10b 1
+R25
+R26
+R27
+!i113 0
+R12
+R13
+Ewgen1
+Z28 w1583901051
+R0
+Z29 8H:/Desktop/Lab1/2-1.vhd
+Z30 FH:/Desktop/Lab1/2-1.vhd
+l0
+L1
+VemXz[P56QE^K[HbF`RmA30
+!s100 <oNl0a758RTY_@<C]IjdG3
+R7
+32
+Z31 !s110 1583901056
+!i10b 1
+Z32 !s108 1583901056.000000
+Z33 !s90 -reportprogress|300|-work|work|H:/Desktop/Lab1/2-1.vhd|
+Z34 !s107 H:/Desktop/Lab1/2-1.vhd|
+!i113 0
+R12
+R13
+Abehaviour
+DEx4 work 5 wgen1 0 22 emXz[P56QE^K[HbF`RmA30
+l8
+L6
+VHQWEEkC6`3gR::5z3f7zC0
+!s100 497LXz;b@7`kbf^Cd5:ao2
+R7
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 0
+R12
+R13

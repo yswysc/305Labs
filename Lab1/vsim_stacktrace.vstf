@@ -1,0 +1,22 @@
+# Current time Wed Mar 11 17:14:40 2020
+# ModelSim SE Stack Trace
+# Program = vsim
+# Id = "10.4c"
+# Version = "2015.07"
+# Date = "Jul 20 2015"
+# Platform = win32
+# Signature = 46a83510700b1fc9d7ab05b7f8520021
+# 0    0x0117190e: '<unknown (@0x117190e)>'
+# 1    0x007b37f0: '<unknown (@0x7b37f0)>'
+# 2    0x007b0ebe: '<unknown (@0x7b0ebe)>'
+# 3    0x007e60d4: '<unknown (@0x7e60d4)>'
+# 4    0x006e6c6a: '<unknown (@0x6e6c6a)>'
+# 5    0x1000cb1f: 'TclInvokeStringCommand + 0x8f' in 'c:\modeltech_10.4c\win32\tcl85.dll'
+# 6    0x1000ecba: 'Tcl_EvalEx + 0x7da' in 'c:\modeltech_10.4c\win32\tcl85.dll'
+# 7    0x1000e500: 'Tcl_EvalEx + 0x20' in 'c:\modeltech_10.4c\win32\tcl85.dll'
+# 8    0x00fa9b24: '<unknown (@0xfa9b24)>'
+# 9    0x1005fb86: 'Tcl_NotifyChannel + 0x136' in 'c:\modeltech_10.4c\win32\tcl85.dll'
+# 10   0x100aab09: 'TclpHasSockets + 0x379' in 'c:\modeltech_10.4c\win32\tcl85.dll'
+# End of Stack Trace
+
+
