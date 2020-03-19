@@ -16,7 +16,7 @@ begin
  	init: process
 	begin
 		-- reset pulse
-		t_reset <= '0', '1' after 2 ns, '0' after 7 ns;
+		t_reset <= '1', '0' after 20 ns, '0' after 30 ns;
 		wait;
 	end process init;
 	-- clock generation
