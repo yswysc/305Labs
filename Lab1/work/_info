@@ -1,246 +1,206 @@
 m255
-K4
-z2
+K3
+z0
 13
-!s112 1.1
-!i10d 8192
-!i10e 25
-!i10f 100
 cModel Technology
-Z0 dH:/Desktop/Lab1
+Z0 dC:\Users\Admin\Desktop\305Labs\Lab1
 T_opt
-!s110 1584067213
-VaRLjFklkG0^YBiDJBeG]A3
+!s110 1585314911
+Vi55`WaEfIenmlZ0cbm99^3
 04 10 4 work test_wgen2 test 1
-=1-e454e87aad54-5e6af28c-190-1994
-o-quiet -auto_acc_if_foreign -work work +acc
+=1-f0761c0b17ef-5e7dfc5d-3a0-49dc
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
 n@_opt
-Z1 OE;O;10.4c;61
-T_opt1
-!s110 1583893761
-VONhh]I12@`C<_h5hEA]o10
-04 12 7 work test_counter my_test 1
-=1-e454e87aad54-5e684d01-89-12cc
-Z2 o-quiet -auto_acc_if_foreign -work work
-n@_opt1
-R1
-R0
-T_opt2
-!s110 1583975418
-VI14<3jB?kRhL9@98TA6O;1
-04 10 4 work test_wgen1 test 1
-=1-e454e84f698e-5e698bf9-3be-237c
-R2
-n@_opt2
-R1
+OL;O;10.5;63
 R0
 Ecounter
-Z3 w1583980528
+Z1 w1583907634
 R0
-Z4 8H:/Desktop/Lab1/counter.vhd
-Z5 FH:/Desktop/Lab1/counter.vhd
+Z2 8C:/Users/Admin/Desktop/305Labs/Lab1/counter.vhd
+Z3 FC:/Users/Admin/Desktop/305Labs/Lab1/counter.vhd
 l0
 L1
-VdYLn>RCjV7jKkkFgRNJco0
-!s100 S793e`Idl_B@`5h^@<dT>3
-Z6 OE;C;10.4c;61
+VdRoPV;^[?njolLh_9UXKA0
+Z4 OV;C;10.1d;51
 32
-Z7 !s110 1584062016
+Z5 !s108 1585314673.628000
+Z6 !s90 -reportprogress|300|-work|work|C:/Users/Admin/Desktop/305Labs/Lab1/counter.vhd|
+Z7 !s107 C:/Users/Admin/Desktop/305Labs/Lab1/counter.vhd|
+Z8 o-work work -O0
+Z9 tExplicit 1
+!s100 ?fKTU^z^ZH8eXRD_f41lJ2
 !i10b 1
-Z8 !s108 1584062016.000000
-Z9 !s90 -reportprogress|300|-work|work|H:/Desktop/Lab1/counter.vhd|
-Z10 !s107 H:/Desktop/Lab1/counter.vhd|
-!i113 0
-Z11 o-work work
-Z12 tExplicit 1
 Abehaviour
-DEx4 work 7 counter 0 22 dYLn>RCjV7jKkkFgRNJco0
-32
-R7
+DEx4 work 7 counter 0 22 dRoPV;^[?njolLh_9UXKA0
 l7
 L6
-VQm?j<JKkG;dk`ZT>naUF52
-!s100 <OcMV7[DZie2X_JaWd3@X0
+VFaIZlYEGnC6oLEkSo?`cS2
+R4
+32
+R5
 R6
-!i10b 1
+R7
 R8
 R9
-R10
-!i113 0
-R11
-R12
+!s100 eofZi1R?hZUB^kL_4X5Hh0
+!i10b 1
 Etest_counter
-Z13 w1583890448
+R1
 R0
-Z14 8H:/Desktop/Lab1/test_counter.vhd
-Z15 FH:/Desktop/Lab1/test_counter.vhd
+Z10 8C:/Users/Admin/Desktop/305Labs/Lab1/test_counter.vhd
+Z11 FC:/Users/Admin/Desktop/305Labs/Lab1/test_counter.vhd
 l0
 L2
-VlC6L?Jf<TXOl7Y`Rbk5_l3
-!s100 cXXK5<eTTH[Q69O5hIha22
-R6
+VDfT:FLChg@ETYXN^0SBzo0
+R4
 32
-R7
-!i10b 1
+Z12 !s108 1585314674.046000
+Z13 !s90 -reportprogress|300|-work|work|C:/Users/Admin/Desktop/305Labs/Lab1/test_counter.vhd|
+Z14 !s107 C:/Users/Admin/Desktop/305Labs/Lab1/test_counter.vhd|
 R8
-Z16 !s90 -reportprogress|300|-work|work|H:/Desktop/Lab1/test_counter.vhd|
-Z17 !s107 H:/Desktop/Lab1/test_counter.vhd|
-!i113 0
-R11
-R12
+R9
+!s100 9NM;2zcaaFZ[OhX35[LU50
+!i10b 1
 Amy_test
-DEx4 work 12 test_counter 0 22 lC6L?Jf<TXOl7Y`Rbk5_l3
-32
-R7
+DEx4 work 12 test_counter 0 22 DfT:FLChg@ETYXN^0SBzo0
 l12
 L4
-V4Pd2NDh:=DB[o_]WgI6iE1
-!s100 0UcJLVhTE`7DDJc<_XzA03
-R6
-!i10b 1
-R8
-R16
-R17
-!i113 0
-R11
+VhkHbL5WReUGAkg44M4UmI3
+R4
+32
 R12
+R13
+R14
+R8
+R9
+!s100 fX_;zji80fQ29@7bSW>eI0
+!i10b 1
 Etest_wgen1
-Z18 w1583894565
+R1
 R0
-Z19 8H:/Desktop/Lab1/test_wgen1.vhd
-Z20 FH:/Desktop/Lab1/test_wgen1.vhd
+Z15 8C:/Users/Admin/Desktop/305Labs/Lab1/test_wgen1.vhd
+Z16 FC:/Users/Admin/Desktop/305Labs/Lab1/test_wgen1.vhd
 l0
 L2
-VP[J3T0K1fnDD;zEGf`cVd0
-!s100 HZCjdKW]kI_NZoLaNBeFf1
-R6
+VY=g<Lc6FT9]N8KHXYoZ]G2
+R4
 32
-R7
-!i10b 1
+Z17 !s108 1585314674.656000
+Z18 !s90 -reportprogress|300|-work|work|C:/Users/Admin/Desktop/305Labs/Lab1/test_wgen1.vhd|
+Z19 !s107 C:/Users/Admin/Desktop/305Labs/Lab1/test_wgen1.vhd|
 R8
-Z21 !s90 -reportprogress|300|-work|work|H:/Desktop/Lab1/test_wgen1.vhd|
-Z22 !s107 H:/Desktop/Lab1/test_wgen1.vhd|
-!i113 0
-R11
-R12
+R9
+!s100 dal3DbhKLcWD`ifSS3fXL0
+!i10b 1
 Atest
-DEx4 work 10 test_wgen1 0 22 P[J3T0K1fnDD;zEGf`cVd0
-32
-R7
+DEx4 work 10 test_wgen1 0 22 Y=g<Lc6FT9]N8KHXYoZ]G2
 l13
 L5
-ViPK<0ROPz6N6zSUOE<bO92
-!s100 T_[XoEhF:=blZN8jZ17B=2
-R6
-!i10b 1
+VDh3W6_mB6WG03I3Jk<bJb1
+R4
+32
+R17
+R18
+R19
 R8
-R21
-R22
-!i113 0
-R11
-R12
+R9
+!s100 B[mnY`f>h`iYHde3FfCiK3
+!i10b 1
 Etest_wgen2
-Z23 w1583894741
+R1
 R0
-Z24 8H:/Desktop/Lab1/test_wgen2.vhd
-Z25 FH:/Desktop/Lab1/test_wgen2.vhd
+Z20 8C:/Users/Admin/Desktop/305Labs/Lab1/test_wgen2.vhd
+Z21 FC:/Users/Admin/Desktop/305Labs/Lab1/test_wgen2.vhd
 l0
 L2
-V61K=c:G8am?3K5@zbA?E11
-!s100 cMNj;]JCkVflK9F1KT7Sj1
-R6
+VISA@Y]5MN8`H^n_oVQd9h0
+!s100 ]3D1TLAkjh@aB2>a2kH8;3
+R4
 32
-R7
 !i10b 1
+Z22 !s108 1585314675.093000
+Z23 !s90 -reportprogress|300|-work|work|C:/Users/Admin/Desktop/305Labs/Lab1/test_wgen2.vhd|
+Z24 !s107 C:/Users/Admin/Desktop/305Labs/Lab1/test_wgen2.vhd|
 R8
-Z26 !s90 -reportprogress|300|-work|work|H:/Desktop/Lab1/test_wgen2.vhd|
-Z27 !s107 H:/Desktop/Lab1/test_wgen2.vhd|
-!i113 0
-R11
-R12
+R9
 Atest
-DEx4 work 10 test_wgen2 0 22 61K=c:G8am?3K5@zbA?E11
+DEx4 work 10 test_wgen2 0 22 ISA@Y]5MN8`H^n_oVQd9h0
+Z25 OL;C;10.5;63
 32
-R7
+!s110 1585314675
 l15
 L5
-V:jifCNU3XZdB=7=XT?<VI1
-!s100 GDmYVS`2z0`XUHCLim2o01
-R6
+VM;ZN059hVWkU?]L1Uo7F=1
+!s100 :KGOOJOzRi8U8P2;Dc0LM0
+R4
 !i10b 1
+R22
+R23
+R24
 R8
-R26
-R27
-!i113 0
-R11
-R12
+R9
 Ewgen1
-Z28 w1583975566
+R1
 R0
-Z29 8H:/Desktop/Lab1/2-1.vhd
-Z30 FH:/Desktop/Lab1/2-1.vhd
+Z26 8C:/Users/Admin/Desktop/305Labs/Lab1/2-1.vhd
+Z27 FC:/Users/Admin/Desktop/305Labs/Lab1/2-1.vhd
 l0
 L1
-VemXz[P56QE^K[HbF`RmA30
-!s100 <oNl0a758RTY_@<C]IjdG3
-R6
+V2Q<<Ma@I[D[;>?6PgK=]e3
+R4
 32
-Z31 !s110 1584063256
+Z28 !s108 1585314672.862000
+Z29 !s90 -reportprogress|300|-work|work|C:/Users/Admin/Desktop/305Labs/Lab1/2-1.vhd|
+Z30 !s107 C:/Users/Admin/Desktop/305Labs/Lab1/2-1.vhd|
+R8
+R9
+!s100 mEA:Hdio@KR?o3FlbVW3Y2
 !i10b 1
-Z32 !s108 1584063256.000000
-Z33 !s90 -reportprogress|300|-work|work|H:/Desktop/Lab1/2-1.vhd|
-Z34 !s107 H:/Desktop/Lab1/2-1.vhd|
-!i113 0
-R11
-R12
 Abehaviour
-DEx4 work 5 wgen1 0 22 emXz[P56QE^K[HbF`RmA30
+DEx4 work 5 wgen1 0 22 2Q<<Ma@I[D[;>?6PgK=]e3
 l8
 L6
-VHQWEEkC6`3gR::5z3f7zC0
-!s100 497LXz;b@7`kbf^Cd5:ao2
-R6
+V>M]=A6`?CdN?ilR8^Lj3<3
+R4
 32
-R31
+R28
+R29
+R30
+R8
+R9
+!s100 C6AhG6EG[Q<e0jQVUHA>@3
 !i10b 1
-R32
-R33
-R34
-!i113 0
-R11
-R12
 Ewgen2
-Z35 w1583979040
+Z31 w1583907636
 R0
-Z36 8H:/Desktop/Lab1/2-2.vhd
-Z37 FH:/Desktop/Lab1/2-2.vhd
+Z32 8C:/Users/Admin/Desktop/305Labs/Lab1/2-2.vhd
+Z33 FC:/Users/Admin/Desktop/305Labs/Lab1/2-2.vhd
 l0
 L1
-VnkCcCZ5NGDcOIz4T5hk8l2
-!s100 D]Kg54dI=NRY]<OCXB]K@0
-R6
+V>@EG<815MkT0QXk=MOA5k2
+R4
 32
-R7
-!i10b 1
+Z34 !s108 1585314673.267000
+Z35 !s90 -reportprogress|300|-work|work|C:/Users/Admin/Desktop/305Labs/Lab1/2-2.vhd|
+Z36 !s107 C:/Users/Admin/Desktop/305Labs/Lab1/2-2.vhd|
 R8
-Z38 !s90 -reportprogress|300|-work|work|H:/Desktop/Lab1/2-2.vhd|
-Z39 !s107 H:/Desktop/Lab1/2-2.vhd|
-!i113 0
-R11
-R12
+R9
+!s100 9PX5KP?fNGOl?`CJS^00a0
+!i10b 1
 Abehaviour
-DEx4 work 5 wgen2 0 22 nkCcCZ5NGDcOIz4T5hk8l2
+DEx4 work 5 wgen2 0 22 >@EG<815MkT0QXk=MOA5k2
+R25
 32
-R7
+!s110 1585314673
 l9
 L7
-VEcz1YObR<FB`I>X[FU:Ib1
-!s100 f>GGnMgUb@_ML`W2GW_M:1
-R6
-!i10b 1
+Vd^B=7a]9Nl]f9bNl88D`S3
+R4
+R34
+R35
+R36
 R8
-R38
-R39
-!i113 0
-R11
-R12
+R9
+!s100 VV^i93=7__lOAE^KA9lLJ3
+!i10b 1
