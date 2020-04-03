@@ -9,7 +9,7 @@ z2
 cModel Technology
 dH:/Desktop/Lab2
 Ebcd_counter
-Z0 w1585732642
+Z0 w1585879472
 Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
@@ -20,32 +20,32 @@ Z7 8C:/Users/Admin/Desktop/305Labs/Lab2/BCD_Counter.vhd
 Z8 FC:/Users/Admin/Desktop/305Labs/Lab2/BCD_Counter.vhd
 l0
 L6
-VB`=J3zDIY7EAZ<A5NB]fO3
-!s100 ]2o`o`dUHaTcDh6TZC?W^0
+VBW6NUe>5LmDU?b6n0b<:L1
+!s100 2YE;h90PSgYN57;UJl<ID3
 Z9 OL;C;10.5;63
-32
-Z10 !s110 1585732662
+33
+Z10 !s110 1585884129
 !i10b 1
-Z11 !s108 1585732661.000000
+Z11 !s108 1585884129.000000
 Z12 !s90 -reportprogress|300|-work|work|C:/Users/Admin/Desktop/305Labs/Lab2/BCD_Counter.vhd|
 Z13 !s107 C:/Users/Admin/Desktop/305Labs/Lab2/BCD_Counter.vhd|
 !i113 0
 Z14 o-work work
-Z15 tExplicit 1 CvgOpt 0
+Z15 tExplicit 1 NoCoverage 1 CvgOpt 0
 Abhv
 R1
 R2
 R3
 R4
 R5
-Z16 DEx4 work 11 bcd_counter 0 22 B`=J3zDIY7EAZ<A5NB]fO3
+DEx4 work 11 bcd_counter 0 22 BW6NUe>5LmDU?b6n0b<:L1
+33
+R10
 l12
 L11
-Z17 VNcH=_57We:33HK2C4[:k[3
-Z18 !s100 k4Y@_c::9gSXW0m`[GGS52
+V<P_kj840><zl2Z^Y>SO7P0
+!s100 k4Y@_c::9gSXW0m`[GGS52
 R9
-32
-R10
 !i10b 1
 R11
 R12
@@ -53,30 +53,114 @@ R13
 !i113 0
 R14
 R15
-Eseq_counter
-Z19 w1585707473
+Edowncounter
+Z16 w1585882077
 R1
 R2
 R3
 R4
 R5
 R6
-Z20 8C:/Users/Admin/Desktop/305Labs/Lab2/Seq_Counter.vhd
-Z21 FC:/Users/Admin/Desktop/305Labs/Lab2/Seq_Counter.vhd
+Z17 8C:/Users/Admin/Desktop/305Labs/Lab2/DownCounter.vhd
+Z18 FC:/Users/Admin/Desktop/305Labs/Lab2/DownCounter.vhd
+l0
+L6
+Vkc^ZA_GA<5m1ci;>]TFkb2
+!s100 7>o4m3aHCIA63C<=j7KfQ0
+R9
+33
+Z19 !s110 1585884131
+!i10b 1
+Z20 !s108 1585884131.000000
+Z21 !s90 -reportprogress|300|-work|work|C:/Users/Admin/Desktop/305Labs/Lab2/DownCounter.vhd|
+Z22 !s107 C:/Users/Admin/Desktop/305Labs/Lab2/DownCounter.vhd|
+!i113 0
+R14
+R15
+Astructural
+R1
+R2
+R3
+R4
+R5
+DEx4 work 11 downcounter 0 22 kc^ZA_GA<5m1ci;>]TFkb2
+33
+R19
+l25
+L11
+V3jba7O@DFZz>1zb5eZl8L1
+!s100 k:4L@3o]z]`k>nBmeL`?`3
+R9
+!i10b 1
+R20
+R21
+R22
+!i113 0
+R14
+R15
+Emy_gate
+Z23 w1585884102
+R4
+R5
+R6
+Z24 8C:/Users/Admin/Desktop/305Labs/Lab2/My_Gate.vhd
+Z25 FC:/Users/Admin/Desktop/305Labs/Lab2/My_Gate.vhd
+l0
+L4
+V8o2IVNJ>d9ZkmK4FzV:Lb3
+!s100 aZ2jbXWz2_AC^^VZ_oL:E3
+R9
+33
+Z26 !s110 1585884133
+!i10b 1
+Z27 !s108 1585884133.000000
+Z28 !s90 -reportprogress|300|-work|work|C:/Users/Admin/Desktop/305Labs/Lab2/My_Gate.vhd|
+Z29 !s107 C:/Users/Admin/Desktop/305Labs/Lab2/My_Gate.vhd|
+!i113 0
+R14
+R15
+Abhv
+R4
+R5
+DEx4 work 7 my_gate 0 22 8o2IVNJ>d9ZkmK4FzV:Lb3
+33
+R26
+l11
+L10
+VRhKVRJ4oB?`B;>[CaRXg42
+!s100 JSaXhSAfMdRVdld4=i>oZ0
+R9
+!i10b 1
+R27
+R28
+R29
+!i113 0
+R14
+R15
+Eseq_counter
+Z30 w1585707473
+R1
+R2
+R3
+R4
+R5
+R6
+Z31 8C:/Users/Admin/Desktop/305Labs/Lab2/Seq_Counter.vhd
+Z32 FC:/Users/Admin/Desktop/305Labs/Lab2/Seq_Counter.vhd
 l0
 L6
 VYDkBPYLV568XVA>4KdT_o1
 !s100 9Whd>ch5NB`6geDd7=;460
 R9
 32
-Z22 !s110 1585720088
+Z33 !s110 1585720088
 !i10b 1
-Z23 !s108 1585720088.000000
-Z24 !s90 -reportprogress|300|-work|work|C:/Users/Admin/Desktop/305Labs/Lab2/Seq_Counter.vhd|
-Z25 !s107 C:/Users/Admin/Desktop/305Labs/Lab2/Seq_Counter.vhd|
+Z34 !s108 1585720088.000000
+Z35 !s90 -reportprogress|300|-work|work|C:/Users/Admin/Desktop/305Labs/Lab2/Seq_Counter.vhd|
+Z36 !s107 C:/Users/Admin/Desktop/305Labs/Lab2/Seq_Counter.vhd|
 !i113 0
 R14
-R15
+Z37 tExplicit 1 CvgOpt 0
 Abehaviour
 R1
 R2
@@ -90,38 +174,38 @@ VIZ1[g[?HSBLdm1eH^H`oN0
 !s100 ^H`V=eTI8GRNc;SlAH`Md3
 R9
 32
-R22
+R33
 !i10b 1
-R23
-R24
-R25
+R34
+R35
+R36
 !i113 0
 R14
-R15
+R37
 Etest_bcd_counter
-Z26 w1585720034
+Z38 w1585720034
 R1
 R2
 R3
 R4
 R5
 R6
-Z27 8C:/Users/Admin/Desktop/305Labs/Lab2/Test_BCD_Counter.vhd
-Z28 FC:/Users/Admin/Desktop/305Labs/Lab2/Test_BCD_Counter.vhd
+Z39 8C:/Users/Admin/Desktop/305Labs/Lab2/Test_BCD_Counter.vhd
+Z40 FC:/Users/Admin/Desktop/305Labs/Lab2/Test_BCD_Counter.vhd
 l0
 L7
 V?>So3KjK3M2TKj[5eNR>;1
 !s100 SM@DaD6@YeSG_FMM@CG6o0
 R9
 32
-Z29 !s110 1585720090
+Z41 !s110 1585720090
 !i10b 1
-Z30 !s108 1585720089.000000
-Z31 !s90 -reportprogress|300|-work|work|C:/Users/Admin/Desktop/305Labs/Lab2/Test_BCD_Counter.vhd|
-Z32 !s107 C:/Users/Admin/Desktop/305Labs/Lab2/Test_BCD_Counter.vhd|
+Z42 !s108 1585720089.000000
+Z43 !s90 -reportprogress|300|-work|work|C:/Users/Admin/Desktop/305Labs/Lab2/Test_BCD_Counter.vhd|
+Z44 !s107 C:/Users/Admin/Desktop/305Labs/Lab2/Test_BCD_Counter.vhd|
 !i113 0
 R14
-R15
+R37
 Amy_test
 R1
 R2
@@ -130,43 +214,43 @@ R4
 R5
 DEx4 work 16 test_bcd_counter 0 22 ?>So3KjK3M2TKj[5eNR>;1
 32
-R29
+R41
 l18
 L10
 VnkX?;7c6hV9<[4?SlSziR0
 !s100 CaaLC@z?;da:L=CClIfP51
 R9
 !i10b 1
-R30
-R31
-R32
+R42
+R43
+R44
 !i113 0
 R14
-R15
+R37
 Etest_counter
-Z33 w1585719309
+Z45 w1585719309
 R1
 R2
 R3
 R4
 R5
 R6
-Z34 8C:/Users/Admin/Desktop/305Labs/Lab2/Test_Seq_Counter.vhd
-Z35 FC:/Users/Admin/Desktop/305Labs/Lab2/Test_Seq_Counter.vhd
+Z46 8C:/Users/Admin/Desktop/305Labs/Lab2/Test_Seq_Counter.vhd
+Z47 FC:/Users/Admin/Desktop/305Labs/Lab2/Test_Seq_Counter.vhd
 l0
 L7
 VFkhK<HSb>2mRzjz?dbW;H0
 !s100 3eV1B>9m6lQYJP0APOWMa2
 R9
 32
-Z36 !s110 1585720091
+Z48 !s110 1585720091
 !i10b 1
-Z37 !s108 1585720091.000000
-Z38 !s90 -reportprogress|300|-work|work|C:/Users/Admin/Desktop/305Labs/Lab2/Test_Seq_Counter.vhd|
-Z39 !s107 C:/Users/Admin/Desktop/305Labs/Lab2/Test_Seq_Counter.vhd|
+Z49 !s108 1585720091.000000
+Z50 !s90 -reportprogress|300|-work|work|C:/Users/Admin/Desktop/305Labs/Lab2/Test_Seq_Counter.vhd|
+Z51 !s107 C:/Users/Admin/Desktop/305Labs/Lab2/Test_Seq_Counter.vhd|
 !i113 0
 R14
-R15
+R37
 Amy_test
 R1
 R2
@@ -180,11 +264,56 @@ VZj>XnM=IB[@6U>adX8<R`2
 !s100 AmnbQDDNilPQKS1kj_BI]0
 R9
 32
-R36
+R48
 !i10b 1
+R49
+R50
+R51
+!i113 0
+R14
 R37
-R38
-R39
+Etest_downcounter
+Z52 w1585882998
+R1
+R2
+R3
+R4
+R5
+R6
+Z53 8C:/Users/Admin/Desktop/305Labs/Lab2/Test_DownCounter.vhd
+Z54 FC:/Users/Admin/Desktop/305Labs/Lab2/Test_DownCounter.vhd
+l0
+L7
+VK>bYCV4jTb6fM5BYg6Hoo0
+!s100 zfL76e73EmfEej;e]T`5J0
+R9
+33
+Z55 !s110 1585884136
+!i10b 1
+Z56 !s108 1585884136.000000
+Z57 !s90 -reportprogress|300|-work|work|C:/Users/Admin/Desktop/305Labs/Lab2/Test_DownCounter.vhd|
+Z58 !s107 C:/Users/Admin/Desktop/305Labs/Lab2/Test_DownCounter.vhd|
+!i113 0
+R14
+R15
+Amy_test
+R1
+R2
+R3
+R4
+R5
+DEx4 work 16 test_downcounter 0 22 K>bYCV4jTb6fM5BYg6Hoo0
+33
+R55
+l18
+L10
+V]Z7MYB=j6gZ]LDCMEWC:U1
+!s100 BDz8m9fLjJ^6nNXKl71PB3
+R9
+!i10b 1
+R56
+R57
+R58
 !i113 0
 R14
 R15
