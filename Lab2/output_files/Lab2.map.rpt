@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Lab2
-Wed Apr 01 22:17:33 2020
+Fri Apr 03 18:27:46 2020
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
 
 
@@ -42,13 +42,13 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Apr 01 22:17:33 2020       ;
+; Analysis & Synthesis Status        ; Successful - Fri Apr 03 18:27:46 2020       ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
 ; Revision Name                      ; Lab2                                        ;
 ; Top-level Entity Name              ; BCD_Counter                                 ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 15                                          ;
-;     Total combinational functions  ; 15                                          ;
+; Total logic elements               ; 14                                          ;
+;     Total combinational functions  ; 14                                          ;
 ;     Dedicated logic registers      ; 4                                           ;
 ; Total registers                    ; 4                                           ;
 ; Total pins                         ; 8                                           ;
@@ -177,16 +177,16 @@ applicable agreement for further details.
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Estimated Total logic elements              ; 15    ;
+; Estimated Total logic elements              ; 14    ;
 ;                                             ;       ;
-; Total combinational functions               ; 15    ;
+; Total combinational functions               ; 14    ;
 ; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 11    ;
-;     -- 3 input functions                    ; 2     ;
-;     -- <=2 input functions                  ; 2     ;
+;     -- 4 input functions                    ; 9     ;
+;     -- 3 input functions                    ; 4     ;
+;     -- <=2 input functions                  ; 1     ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 15    ;
+;     -- normal mode                          ; 14    ;
 ;     -- arithmetic mode                      ; 0     ;
 ;                                             ;       ;
 ; Total registers                             ; 4     ;
@@ -195,10 +195,10 @@ applicable agreement for further details.
 ;                                             ;       ;
 ; I/O pins                                    ; 8     ;
 ; Embedded Multiplier 9-bit elements          ; 0     ;
-; Maximum fan-out node                        ; Q[1]  ;
-; Maximum fan-out                             ; 8     ;
-; Total fan-out                               ; 82    ;
-; Average fan-out                             ; 2.34  ;
+; Maximum fan-out node                        ; Q[0]  ;
+; Maximum fan-out                             ; 9     ;
+; Total fan-out                               ; 72    ;
+; Average fan-out                             ; 2.12  ;
 +---------------------------------------------+-------+
 
 
@@ -207,7 +207,7 @@ applicable agreement for further details.
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |BCD_Counter               ; 15 (15)           ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 8    ; 0            ; |BCD_Counter        ; work         ;
+; |BCD_Counter               ; 14 (14)           ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 8    ; 0            ; |BCD_Counter        ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -220,9 +220,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Total registers                              ; 4     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 4     ;
+; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 4     ;
+; Number of registers using Clock Enable       ; 2     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -232,7 +232,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |BCD_Counter|Q[1]          ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 6 LEs                ; 2 LEs                  ; Yes        ; |BCD_Counter|Q[1]          ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 
 
@@ -251,27 +251,24 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
-    Info: Processing started: Wed Apr 01 22:17:29 2020
+    Info: Processing started: Fri Apr 03 18:27:42 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab2 -c Lab2
 Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
 Info (12021): Found 2 design units, including 1 entities, in source file bcd_counter.vhd
     Info (12022): Found design unit 1: BCD_Counter-Bhv
     Info (12023): Found entity 1: BCD_Counter
 Info (12127): Elaborating entity "BCD_Counter" for the top level hierarchy
-Warning (13004): Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
-    Warning (13310): Register "Q[0]" is converted into an equivalent circuit using register "Q[0]~_emulated" and latch "Q[0]~1"
-    Warning (13310): Register "Q[3]" is converted into an equivalent circuit using register "Q[3]~_emulated" and latch "Q[0]~1"
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 23 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 22 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 4 input pins
     Info (21059): Implemented 4 output pins
-    Info (21061): Implemented 15 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 3 warnings
+    Info (21061): Implemented 14 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4656 megabytes
-    Info: Processing ended: Wed Apr 01 22:17:33 2020
+    Info: Processing ended: Fri Apr 03 18:27:46 2020
     Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
 
 

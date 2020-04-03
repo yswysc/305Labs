@@ -1,0 +1,30 @@
+Lab 2
+
+Compile with VHDL-2008
+
+Q1
+    a:
+        6 bits, because the range of integer is -14 to 27, needs six bits to store 41 signed integer
+    
+    b:
+        file: Seq_Counter.vhd
+    
+    c:
+        file: Test_Seq_Counter.vhd
+
+Q2
+    a:
+        file: BCD_Counter.vhd
+    
+    b:
+        file: Test_BCD_Counter.vhd
+        
+    c:
+        Quartus II report: 15 LEs
+
+Q3
+    a:
+        file: BCD_Counter.vhd ; My_Gate.vhd ; DownCounter.vhd
+    
+    b:
+        file: Test_DownCounter.vhd

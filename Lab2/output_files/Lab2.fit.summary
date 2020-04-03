@@ -1,12 +1,12 @@
-Fitter Status : Successful - Wed Apr 01 22:18:08 2020
+Fitter Status : Successful - Fri Apr 03 18:28:15 2020
 Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
 Revision Name : Lab2
 Top-level Entity Name : BCD_Counter
 Family : Cyclone IV E
 Device : EP4CE115F23C7
 Timing Models : Final
-Total logic elements : 15 / 114,480 ( < 1 % )
-    Total combinational functions : 15 / 114,480 ( < 1 % )
+Total logic elements : 14 / 114,480 ( < 1 % )
+    Total combinational functions : 14 / 114,480 ( < 1 % )
     Dedicated logic registers : 4 / 114,480 ( < 1 % )
 Total registers : 4
 Total pins : 8 / 281 ( 3 % )

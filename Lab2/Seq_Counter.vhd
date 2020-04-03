@@ -28,7 +28,7 @@ begin
 			elsif (Mode = "10") then
 				m := 0;
 			else
-				m := 1;
+				m := -1; -- all bits are 1
 			end if;
 			c_Mode:= Mode;
 		elsif (Clk'event and Clk = '1' and Enable = '1') then
@@ -61,7 +61,7 @@ begin
 			----------------------------------------------
 			--all bits of Q will be 1
 			else
-				m := 1;
+				m := -1;
 			----------------------------------------------
 			----------------------------------------------
 			end if;

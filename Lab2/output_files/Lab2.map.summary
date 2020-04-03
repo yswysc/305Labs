@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Wed Apr 01 22:17:33 2020
+Analysis & Synthesis Status : Successful - Fri Apr 03 18:27:46 2020
 Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
 Revision Name : Lab2
 Top-level Entity Name : BCD_Counter
 Family : Cyclone IV E
-Total logic elements : 15
-    Total combinational functions : 15
+Total logic elements : 14
+    Total combinational functions : 14
     Dedicated logic registers : 4
 Total registers : 4
 Total pins : 8

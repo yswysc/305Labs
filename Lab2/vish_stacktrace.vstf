@@ -1,0 +1,38 @@
+# Current time Fri Apr 03 18:10:02 2020
+# ModelSim SE Stack Trace
+# Program = vish
+# Id = "10.5"
+# Version = "2016.02"
+# Date = "Feb 13 2016"
+# Platform = win64
+
+Exception c0000005 has occurred at address 6b3a1ee6. Traceback:
+# 0    0x6b3a1ee6: 'Tcl_EvalEx + 0xa36'
+# 1    0x6b3a2a43: 'TclEvalObjEx + 0x243'
+# 2    0x6b3aa6ef: 'Tcl_CreateThread + 0x33af'
+# 3    0x6b3a0e9d: 'Tcl_ListMathFuncs + 0x59d'
+# 4    0x6b3e5b92: 'Tcl_ExprObj + 0x1922'
+# 5    0x6b42f8a4: 'TclObjInterpProcCore + 0x74'
+# 6    0x6b3a0e9d: 'Tcl_ListMathFuncs + 0x59d'
+# 7    0x6b3e5b92: 'Tcl_ExprObj + 0x1922'
+# 8    0x6b42f8a4: 'TclObjInterpProcCore + 0x74'
+# 9    0x6b3a0e9d: 'Tcl_ListMathFuncs + 0x59d'
+# 10   0x6b3e5b92: 'Tcl_ExprObj + 0x1922'
+# 11   0x6b3e48a0: 'Tcl_ExprObj + 0x630'
+# 12   0x6b3a2bb6: 'TclEvalObjEx + 0x3b6'
+# 13   0x6b402887: 'TclChannelEventScriptInvoker + 0x57'
+# 14   0x6b40211e: 'Tcl_NotifyChannel + 0x14e'
+# 15   0x6b40226b: 'Tcl_NotifyChannel + 0x29b'
+# 16   0x6b441d6d: 'Tcl_DeleteTimerHandler + 0x26d'
+# 17   0x6b41edb7: 'Tcl_ServiceEvent + 0xc7'
+# 18   0x6b41f119: 'Tcl_DoOneEvent + 0xc9'
+# 19   0x6b542ee5: 'Tk_MainLoop + 0x25'
+# 20   0x6b57a414: 'Tk_MainEx + 0x984'
+# 21   0x401cddbb: 'Mtirpc_Init + 0x21a0b'
+# 22   0x401d032a: 'Mtirpc_Init + 0x23f7a'
+# 23   0x405d445b: 'Tclsqlite_Init + 0x1a2b'
+# 24   0xaf667bd4: 'BaseThreadInitThunk + 0x14'
+# 25   0xb0eaced1: 'RtlUserThreadStart + 0x21'
+StackWalk failed 0
+# End of Stack Trace
+
