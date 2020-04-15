@@ -5,7 +5,7 @@ use IEEE.numeric_std.all;
 
 entity BCD_Counter is
     port (Clk, Direction, Init, Enable : in std_logic;
-		Q_Out: out std_logic_vector(3 downto 0));
+        Q_Out: out std_logic_vector(3 downto 0));
 end entity;
 
 architecture Bhv of BCD_Counter is

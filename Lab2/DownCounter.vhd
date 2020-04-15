@@ -3,21 +3,21 @@ use IEEE.std_logic_1164.all;
 use IEEE.std_logic_unsigned.all;
 use IEEE.numeric_std.all;
 
-entity  DownCounter is
-    port (D_Clk, D_Direction, D_Reset, D_Enable: in std_logic;
-        Tens_Out, Ones_Out: out std_logic_vector(3 downto 0));
+entity DownCounter is
+    port (D_Clk, D_Direction, D_Reset, D_Enable : in std_logic;
+        Tens_Out, Ones_Out : out std_logic_vector(3 downto 0));
 end entity;
 
 architecture Structural of DownCounter is
     component BCD_Counter is
         port (Clk, Direction, Init, Enable : in std_logic;
-            Q_Out: out std_logic_vector(3 downto 0));
+            Q_Out : out std_logic_vector(3 downto 0));
     end component BCD_Counter;
 
     component My_Gate is
-        port (Direction: in std_logic;
-            X: in std_logic_vector(3 downto 0);
-            Y: out std_logic);
+        port (Direction : in std_logic;
+            X : in std_logic_vector(3 downto 0);
+            Y : out std_logic);
     end component My_Gate;
     
     signal Sub_Clk: std_logic;
