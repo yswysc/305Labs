@@ -10,15 +10,17 @@ end entity test_timer;
 architecture my_test of test_timer is
 	signal t_Clk, t_Load, t_Start, t_Time_out : std_logic;
 	signal t_Data_in : std_logic_vector(15 downto 0);
+    signal t_LED_1s, t_LED_10s, t_LED_1m, t_LED_10m : std_logic_vector (7 downto 0);
 	
 	component Timer is
         port (Clk, Load, Start : in std_logic;
             Data_in : in std_logic_vector(15 downto 0);
             Time_out : out std_logic);
+            LED_1s, LED_10s, LED_1m, LED_10m : out std_logic_vector (7 downto 0));
 	end component Timer;
 begin
 	DUT:	Timer
-		port map (t_Clk, t_Load, t_Start, t_Data_in, t_Time_out);
+		port map (t_Clk, t_Load, t_Start, t_Data_in, t_Time_out, t_LED_1s, t_LED_10s, t_LED_1m, t_LED_10m);
 
 	-- Initialization process (code that executes only once).
  	init: process

@@ -6,7 +6,8 @@ use IEEE.numeric_std.all;
 entity Timer is
     port (Clk, Load, Start : in std_logic;
         Data_in : in std_logic_vector(15 downto 0);
-        Time_out : out std_logic);
+        Time_out : out std_logic;
+        LED_1s, LED_10s, LED_1m, LED_10m : out std_logic_vector (7 downto 0));
 end entity Timer;
 
 architecture structural of Timer is
@@ -17,7 +18,6 @@ architecture structural of Timer is
     signal t_Q_1s, t_Q_10s, t_Q_1m, t_Q_10m : std_logic_vector (3 downto 0);
     signal t_Compare_1s, t_Compare_10s, t_Compare_1m, t_Compare_10m : std_logic_vector (3 downto 0);
     signal t_Out_1s, t_Out_10s, t_Out_1m, t_Out_10m : std_logic;
-    signal t_LED_1s, t_LED_10s, t_LED_1m, t_LED_10m : std_logic_vector (7 downto 0);
   
 component BCD_counter is
     port(Clk, Direction, Init, Enable : in std_logic;
@@ -97,10 +97,10 @@ begin
   DUT_10m: BCD_counter port map(t_9_10m, t_Direction, Load, t_Enable, t_Q_10m);
     
   --7s segment--
-  DUT_SevenSegment_1s : BCD2SevenSeg port map (t_Q_1s, t_LED_1s);
-  DUT_SevenSegment_10s : BCD2SevenSeg port map (t_Q_10s, t_LED_10s);
-  DUT_SevenSegment_1m : BCD2SevenSeg port map (t_Q_1m, t_LED_1m);
-  DUT_SevenSegment_10m : BCD2SevenSeg port map (t_Q_10m, t_LED_10m);
+  DUT_SevenSegment_1s : BCD2SevenSeg port map (t_Q_1s, LED_1s);
+  DUT_SevenSegment_10s : BCD2SevenSeg port map (t_Q_10s, LED_10s);
+  DUT_SevenSegment_1m : BCD2SevenSeg port map (t_Q_1m, LED_1m);
+  DUT_SevenSegment_10m : BCD2SevenSeg port map (t_Q_10m, LED_10m);
   
   --Timeout--
   DUT_And_1s : AND_4_bit port map(t_Q_1s, t_Compare_1s, t_Out_1s);
