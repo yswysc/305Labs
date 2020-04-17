@@ -8,10 +8,7 @@ end entity;
 
 architecture Bhv of EnableGate is
     begin
-        process(Start, Time_out)
-        begin
-            Enable <= Start and not Time_out;
-        end process;
+        Enable <= Start and not Time_out;
 end architecture Bhv;
 
 

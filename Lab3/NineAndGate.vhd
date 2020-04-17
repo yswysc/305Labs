@@ -8,13 +8,5 @@ end entity;
 
 architecture Bhv of NineAndGate is
     begin
-        process(X)
-        begin
-            if (X = "1001") then 
-                Y <= '1';
-            else 
-                Y <= '0';
-            end if;
-        end process;
+        Y <= X(0) AND (NOT X(1)) AND (NOT X(2)) AND  X(3);
 end architecture Bhv;
-

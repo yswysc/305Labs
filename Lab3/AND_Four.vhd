@@ -8,10 +8,7 @@ end entity;
 
 architecture Bhv of AND_Four is
     begin
-        process(A, B, C, D)
-        begin
-            Z <= A and B and C and D;
-        end process;
+        Z <= A and B and C and D;
 end architecture Bhv;
 
 

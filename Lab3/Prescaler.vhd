@@ -1,37 +1,32 @@
--- Prescaler to convert 1MHz to 1Hz
 library IEEE;
-use IEEE.std_logic_1164.all;
-use IEEE.std_logic_unsigned.all;
-use IEEE.numeric_std.all;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.NUMERIC_STD.all;
 
 entity Prescaler is
-    port (Clk, Start : in std_logic;
-        Clk_Out : out std_logic);
-end entity;
+  port (clk_1Mhz, Load, Enable : in  std_logic;
+    clk_1Hz   : out std_logic);
+end Prescaler;
 
-architecture Bhv of Prescaler is
-    signal Clk_Out_i : std_logic;
-    begin
-        process(Clk, Start)
-        variable halfM : integer range 0 to 5*10**5 - 1;
-        variable is_start : std_logic := '0';
-        begin
-            if (rising_edge(Clk)) then
-                if (is_start /= Start) then 
-                    if (Start = '1') then
-                        Clk_Out_i <= '1';
-                    else
-                        Clk_Out_i <= '0';
-                    end if;
-                    halfM:= 0;
-                    is_start:= Start;
-                elsif (halfM = 5*10**5 - 1) then
-                    Clk_Out_i <= not Clk_Out_i;
-                    halfM:= 0;
-                else
-                    halfM:= halfM + 1;
-                end if;
-            end if;
-            Clk_Out <= Clk_Out_i;
-        end process;
-end architecture Bhv;
+architecture Behavioral of Prescaler is
+
+  signal prescaler : unsigned(19 downto 0);
+  signal clk_1Hz_i : std_logic;
+begin
+  gen_clk : process (clk_1Mhz, Load, Enable)
+  begin  -- process gen_clk
+    if (Load = '1') then
+        clk_1Hz_i <= '0';
+        prescaler   <= (others => '0');
+    elsif (rising_edge(clk_1Mhz) and Enable = '1') then
+        if prescaler = X"7A120" then     -- 500 000 in hex
+            prescaler   <= (others => '0');
+            clk_1Hz_i   <= not clk_1Hz_i;
+        else
+            prescaler <= prescaler + "1";
+        end if;
+    end if;
+  end process gen_clk;
+
+clk_1Hz <= clk_1Hz_i;
+
+end Behavioral;

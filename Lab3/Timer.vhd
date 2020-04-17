@@ -14,7 +14,7 @@ architecture structural of Timer is
     signal t_Direction, t_Clk, t_Enable : std_logic;
     signal t_9_10s, t_5_10s, t_9_10m : std_logic;
     signal t_OR_output : std_logic;
-    signal t_AND_1_output : std_logic;
+    signal t_AND_1_output, t_AND_2_output, t_AND_3_output, t_AND_4_output, t_AND_5_output : std_logic;
     signal t_Q_1s, t_Q_10s, t_Q_1m, t_Q_10m : std_logic_vector (3 downto 0);
     signal t_Compare_1s, t_Compare_10s, t_Compare_1m, t_Compare_10m : std_logic_vector (3 downto 0);
     signal t_Out_1s, t_Out_10s, t_Out_1m, t_Out_10m : std_logic;
@@ -25,8 +25,8 @@ component BCD_counter is
 end component BCD_counter;
 
 component Prescaler is
-    port (Clk, Start : in std_logic;
-       Clk_Out : out std_logic);
+    port (clk_1Mhz, Load, Enable : in  std_logic;
+        clk_1Hz   : out std_logic);
 end component Prescaler;
 
 component BCD2SevenSeg is
@@ -79,8 +79,8 @@ begin
   t_Direction <= '0';
   
   --Prescaler--
-  DUT_Clk: Prescaler port map (Clk, Start, t_Clk);
-    
+  DUT_Clk: Prescaler port map (Clk, Load, t_Enable, t_Clk);
+  
   --Data in--
   DUT_Store: Store port map (Data_in, Load, t_Compare_1s, t_Compare_10s, t_Compare_1m, t_Compare_10m);
   
@@ -88,13 +88,17 @@ begin
   DUT_Enable_Gate: EnableGate port map (Start, Time_out, t_Enable);   
   DUT_1s: BCD_counter port map (t_Clk, t_Direction, Load, t_Enable, t_Q_1s);
   DUT_9AndGate1s: NineAndGate port map (t_Q_1s, t_9_10s);
-  DUT_AND_1 : AND_Gate port map (t_9_10s, t_5_10s, t_AND_1_output);
-  DUT_OR_Gate: OR_Gate port map (Load, t_AND_1_output , t_OR_output);
-  DUT_10s: BCD_counter port map(t_9_10s, t_Direction, t_OR_output, t_Enable, t_Q_10s);
+  DUT_AND_1 : AND_Gate port map (t_Enable, t_9_10s, t_AND_1_output);
+  DUT_AND_2 : AND_Gate port map (t_9_10s, t_5_10s, t_AND_2_output);
+  DUT_OR_Gate: OR_Gate port map (Load, t_AND_2_output , t_OR_output);
+  DUT_10s: BCD_counter port map(t_Clk, t_Direction, t_OR_output, t_AND_1_output, t_Q_10s);
   DUT_5AndGate10s: FiveAndGate port map (t_Q_10s, t_5_10s);
-  DUT_1m: BCD_counter port map(t_5_10s, t_Direction, Load, t_Enable, t_Q_1m);
+  DUT_AND_3 : AND_Gate port map (t_Enable, t_AND_2_output, t_AND_3_output);
+  DUT_1m: BCD_counter port map(t_Clk, t_Direction, Load, t_AND_3_output, t_Q_1m);
   DUT_9AndGate1m: NineAndGate port map (t_Q_1m, t_9_10m);
-  DUT_10m: BCD_counter port map(t_9_10m, t_Direction, Load, t_Enable, t_Q_10m);
+  DUT_AND_4 : AND_Gate port map (t_Enable, t_9_10m, t_AND_4_output);
+  DUT_AND_5 : AND_Gate port map (t_AND_2_output, t_9_10m, t_AND_5_output);
+  DUT_10m: BCD_counter port map(t_Clk, t_Direction, Load, t_AND_5_output, t_Q_10m);
     
   --7s segment--
   DUT_SevenSegment_1s : BCD2SevenSeg port map (t_Q_1s, LED_1s);

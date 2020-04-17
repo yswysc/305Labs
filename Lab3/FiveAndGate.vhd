@@ -8,12 +8,5 @@ end entity;
 
 architecture Bhv of FiveAndGate is
     begin
-        process(X)
-        begin
-            if (X = "0101") then 
-                Y <= '1';
-            else 
-                Y <= '0';
-            end if;
-        end process;
+        Y <= X(0) AND (NOT X(1)) AND X(2) AND (NOT X(3)); -- Five in binary is 0101 but because we used "downto" which means from X(3) downto X(0)
 end architecture Bhv;

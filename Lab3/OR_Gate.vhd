@@ -8,10 +8,7 @@ end entity;
 
 architecture Bhv of OR_Gate is
     begin
-        process(X,Y)
-        begin
-            Z <= X or Y;
-        end process;
+        Z <= X or Y;
 end architecture Bhv;
 
 

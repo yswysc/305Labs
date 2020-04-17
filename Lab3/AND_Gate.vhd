@@ -8,10 +8,7 @@ end entity;
 
 architecture Bhv of AND_Gate is
     begin
-        process(X,Y)
-        begin
-            Z <= X and Y;
-        end process;
+        Z <= X and Y;
 end architecture Bhv;
 
 
