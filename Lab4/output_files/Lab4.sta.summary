@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Clk'
+Slack : -2.963
+TNS   : -48.941
+
+Type  : Slow 1200mV 85C Model Setup 'Prescaler:DUT_Clk|\gen_clk:clk_05Hz_i'
+Slack : -0.871
+TNS   : -3.962
+
+Type  : Slow 1200mV 85C Model Hold 'Clk'
+Slack : -0.063
+TNS   : -0.063
+
+Type  : Slow 1200mV 85C Model Hold 'Prescaler:DUT_Clk|\gen_clk:clk_05Hz_i'
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -32.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Prescaler:DUT_Clk|\gen_clk:clk_05Hz_i'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 0C Model Setup 'Clk'
+Slack : -2.583
+TNS   : -40.447
+
+Type  : Slow 1200mV 0C Model Setup 'Prescaler:DUT_Clk|\gen_clk:clk_05Hz_i'
+Slack : -0.674
+TNS   : -2.929
+
+Type  : Slow 1200mV 0C Model Hold 'Clk'
+Slack : -0.111
+TNS   : -0.111
+
+Type  : Slow 1200mV 0C Model Hold 'Prescaler:DUT_Clk|\gen_clk:clk_05Hz_i'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -32.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Prescaler:DUT_Clk|\gen_clk:clk_05Hz_i'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Setup 'Clk'
+Slack : -1.231
+TNS   : -14.916
+
+Type  : Fast 1200mV 0C Model Setup 'Prescaler:DUT_Clk|\gen_clk:clk_05Hz_i'
+Slack : -0.048
+TNS   : -0.048
+
+Type  : Fast 1200mV 0C Model Hold 'Clk'
+Slack : -0.136
+TNS   : -0.136
+
+Type  : Fast 1200mV 0C Model Hold 'Prescaler:DUT_Clk|\gen_clk:clk_05Hz_i'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -33.629
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Prescaler:DUT_Clk|\gen_clk:clk_05Hz_i'
+Slack : -1.000
+TNS   : -8.000
+
+------------------------------------------------------------
